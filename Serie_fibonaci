@@ -1,0 +1,13 @@
+def fibonacci(n):
+    # Lista para almacenar los números de la serie
+    fib = [0, 1]
+    
+    # Generar los números de Fibonacci hasta el número n
+    for i in range(2, n):
+        fib.append(fib[-1] + fib[-2])
+    
+    return fib
+
+# Número de términos de la serie
+n = 10
+print(fibonacci(n))
