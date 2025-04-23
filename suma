@@ -1,0 +1,21 @@
+# Suma de dos números
+numero1 = 10
+numero2 = 5
+suma = numero1 + numero2
+print(f"La suma de {numero1} y {numero2} es: {suma}")
+
+# Suma de los elementos de una lista
+lista = [1, 2, 3, 4, 5]
+suma_lista = sum(lista)
+print(f"La suma de los elementos de la lista es: {suma_lista}")
+
+# Suma de los elementos de una tupla
+tupla = (6, 7, 8, 9, 10)
+suma_tupla = sum(tupla)
+print(f"La suma de los elementos de la tupla es: {suma_tupla}")
+
+# Suma con input
+numero1 = int(input("Ingresa el primer número: "))
+numero2 = int(input("Ingresa el segundo número: "))
+suma_input = numero1 + numero2
+print(f"La suma de {numero1} y {numero2} es: {suma_input}")
