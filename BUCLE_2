@@ -1,0 +1,11 @@
+# Ejemplo con break
+for i in range(10):
+    if i == 5:
+        break  # Sale del bucle cuando i es 5
+    print(i)
+
+# Ejemplo con continue
+for i in range(10):
+    if i % 2 == 0:
+        continue  # Salta a la siguiente iteración si i es par
+    print(i)
